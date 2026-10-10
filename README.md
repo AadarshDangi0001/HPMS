@@ -106,7 +106,8 @@ npm run seed:clear
 **Backend** (from `backend/`):
 
 ```bash
-npm run dev
+npm run dev     # development, auto-restarts on file changes (nodemon)
+npm start       # production-style start, no file watching (plain node)
 ```
 
 Runs on `http://localhost:5001` (or your configured `PORT`).
